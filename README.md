@@ -16,17 +16,35 @@ POSTGRESQL: PostgreSQL is an open-source, advanced, and highly scalable database
 
 YOUTUBE DATA SCRAPPING AND ITS ETHICAL PERSPECTIVE: When engaging in the scraping of YouTube content, it is crucial to approach it ethically and responsibly. Respecting YouTube's terms and conditions, obtaining appropriate authorization, and adhering to data protection regulations are fundamental considerations. The collected data must be handled responsibly, ensuring privacy, confidentiality, and preventing any form of misuse or misrepresentation. Furthermore, it is important to take into account the potential impact on the platform and its community, striving for a fair and sustainable scraping process. By following these ethical guidelines, we can uphold integrity while extracting valuable insights from YouTube data.
 
-REQUIRED LIBRARIES:
+1. Tools Install
+Virtual code.
+Jupyter notebook.
+Python 3.11.0 or higher.
+MySQL.
+MongoDB.
+Youtube API key.
+2. Requirement Libraries to Install
+pip install google-api-python-client, pymongo, mysql-connector-python, sqlalchemy, pymysql, pymysql, pandas, numpy, plotly-express, streamlit.
+( pip install google-api-python-client pymongo mysql-connector-python sqlalchemy pymysql pandas numpy plotly-express streamlit )
 
-1.googleapiclient.discovery
+3. Import Libraries
+Youtube API libraries
 
-2.streamlit
+import googleapiclient.discovery
+from googleapiclient.discovery import build
+File handling libraries
 
-3.psycopg2
+MongoDB
 
-4.pymongo
+import pymongo
+import psycopg2
 
-5.pandas
+import pandas as pd
+
+Dashboard libraries
+
+import streamlit as st
+
 
 FEATURES: The following functions are available in the YouTube Data Harvesting and Warehousing application: Retrieval of channel and video data from YouTube using the YouTube API.
 
